@@ -5,16 +5,11 @@
 
 **Survival probability:** $P(\tau > t) = Q(t)$.
 
-**Conditional default probability:** $P(\tau \leq t + dt \mid \tau > t)$.
-
 **Conditional survival probability:** $P(\tau > t + dt \mid \tau > t)$.
-
-***
- **Conditional survival probability**
 
 $$P(\tau > t + dt \mid \tau > t) = \frac{P(\tau > t + dt \text{ AND } \tau > t)}{P(\tau > t)} = \frac{P(\tau > t + dt)}{P(\tau > t)} = \frac{Q(t + dt)}{Q(t)}.$$
 
-**Conditional default probability**
+**Conditional default probability:** $P(\tau \leq t + dt \mid \tau > t)$.
 
 $$P(\tau \leq t + dt \mid \tau > t) = 1 - P(\tau > t + dt \mid \tau > t) = \frac{P(\tau > t) - P(\tau > t + dt)}{P(t > \tau)} = \frac{P(\tau \leq t + dt) - P(\tau \leq t)}{P(t > \tau)}$$
 
